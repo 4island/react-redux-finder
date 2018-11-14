@@ -1,0 +1,25 @@
+body {
+  display: block;
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 2%;
+  padding-right: 5%;
+  padding-left: 5%;
+  background-color: #282c34;
+}
+
+.title{
+  text-align: center;
+}
+
+.App {
+  color: white;  
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+

@@ -1,0 +1,52 @@
+
+.Filter{
+    display: inline-block;
+    width: 100%;
+}
+
+.AgeInput{
+    width: 25% !important;
+}
+
+.Filter input {
+    width: 25%;
+    border-radius: 5%;
+}
+
+.Filter select {
+    width: 25%;
+    border-radius: 5%;
+}
+
+.Filter button {
+    position: relative;
+    font-size: 16px;
+    background-color: rgb(98, 114, 185);
+    border-color: rgb(46, 44, 73);
+    border-radius: 10%;
+}
+
+.Filter button:hover {
+    background-color: #a1a1a1;
+    cursor: pointer;
+}
+
+.Filter input, .Filter select, .Filter button {
+    margin: 1em;
+    padding: 1em;
+}
+
+@media screen and (max-width: 768px) {
+
+    .Filter button {
+        width: 77%;
+        border-radius: 5%;
+    }
+    .Filter input, AgeInput{
+        width: 71%  !important;
+    }
+
+    .Filter select{
+        width: 77%;
+    }
+}
